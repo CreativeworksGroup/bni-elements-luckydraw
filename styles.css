@@ -1,0 +1,48 @@
+body{
+    padding: 0.2em;
+}
+
+#elements{
+    margin-top: 0.5em;
+}
+.ticket{
+    width:20%;
+    float: left;
+    text-align: center;
+}
+
+.ticket.selected span {
+    background-color: red !important;
+    color: #fff !important;
+    border-color: red !important;
+}
+
+.ticket span{
+    margin: 0.1em;
+    padding: 0.3em;
+    border: 2px solid black;
+    display: block;
+    background-color: rgb(191, 243, 252);
+    border-color:rgb(94, 231, 255);
+    border-radius: 3px;
+}
+
+.ticket:nth-child(5n+2) span{
+    background-color: rgb(171, 204, 255);
+    border-color: rgb(98, 161, 255);
+}
+
+.ticket:nth-child(5n+3) span{
+    background-color: rgb(186, 171, 255);
+    border-color: rgb(122, 92, 253);
+}
+
+.ticket:nth-child(5n+4) span{
+    background-color: rgb(241, 171, 255);
+    border-color: rgb(222, 72, 252);
+}
+
+.ticket:nth-child(5n+5) span{
+    background-color: rgb(255, 171, 217);
+    border-color: rgb(255, 73, 173);
+}
